@@ -1,0 +1,5 @@
+{
+  "name": "ConsentGuard",
+  "description": "Protect image privacy by embedding traceable IDs to identify leak sources.",
+  "requestFramePermissions": []
+}
