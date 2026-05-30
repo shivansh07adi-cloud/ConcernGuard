@@ -1,122 +1,34 @@
-Consent Guard
-Overview
+# 🛡️ Consent Guard
 
-Consent Guard is a digital platform designed to ensure clear, secure, and verifiable consent in personal and digital interactions. The platform allows users to request, record, and store consent in a secure and tamper-proof manner.
+**Consent Guard** is a secure digital platform designed to ensure clear, verifiable, and tamper-proof consent in personal and digital interactions. Developed as a breakthrough solution for **Hack4Her 2026**, the platform allows users to request, record, and securely log consent in real time—promoting safety, transparency, and accountability across digital ecosystems.
 
-The goal of Consent Guard is to promote safety, transparency, and accountability, especially in situations where misuse of personal data, images, or recordings may occur.
+⚡ **Project Status:**
+[![Hackathon](https://img.shields.io/badge/Event-Hack4Her%202026-purple.svg)]()
+[![Platform Support](https://img.shields.io/badge/Platform-Web%20%7C%20Mobile%20Ready-blue.svg)]()
+[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
 
-This project was developed as part of the Code4Her 2026.
+> 💡 **Core Mission:** Traditional consent is often verbal, easily misrepresented, or completely undocumented. **Consent Guard** bridges this gap by creating a reliable, cryptographic, and time-stamped paper trail for digital agreements, heavily protecting vulnerable groups and women from the unauthorized misuse of personal media.
 
-Problem Statement
+---
 
-In many situations, especially in digital communication and content sharing, consent is often unclear or misrepresented.
+## 🚨 The Problem Statement
 
-Common problems include:
+In modern digital communication and content sharing, consent is frequently vague, fluid, or entirely weaponized. Common vulnerabilities include:
+* **Unauthorized Sharing:** Distribution of personal images, videos, or confidential recordings without explicit permission.
+* **Fabricated Consent:** Claims of agreement or consent made without concrete, verifiable proof.
+* **Lack of Accountability:** Absence of a centralized, secure system to log and audit personal boundaries.
+* **Vulnerability:** These critical systemic gaps disproportionately impact women and vulnerable individuals, demanding immediate structural intervention.
 
-Unauthorized sharing of personal images or recordings
+---
 
-Claims of consent without proof
+## 💡 The Solution
 
-Lack of a reliable system to record and verify agreements
+Consent Guard mitigates digital disputes by introducing a **Two-Factor Digital Verification System** that requires mutual validation before any data or media exchange occurs.
 
-Difficulty protecting individuals from misuse of digital content
-
-These issues disproportionately affect women and vulnerable individuals, making it important to build systems that protect their rights and privacy.
-
-Solution
-
-Consent Guard provides a secure digital consent verification system where users can:
-
-Request consent before sharing content
-
-Approve or reject consent requests
-
-Generate a time-stamped consent record
-
-Store consent logs securely
-
-Maintain transparency between both parties
-
-The platform ensures that both parties clearly agree before any action takes place, reducing disputes and misuse.
-
-Key Features
-Consent Request System
-
-Users can send a consent request before sharing content or recording interactions.
-
-Secure Consent Approval
-
-The receiving user can approve or deny the request in real time.
-
-Time-Stamped Records
-
-All approvals are stored with timestamps to create a verifiable record.
-
-Consent History Dashboard
-
-Users can view past consent requests and responses.
-
-Privacy Protection
-
-Sensitive information is stored securely to protect user identity and personal data.
-
-How It Works
-
-User A sends a consent request to User B.
-
-User B receives the request and reviews it.
-
-User B either approves or denies the request.
-
-If approved, a secure consent record is created.
-
-The record is stored in the system with a timestamp and verification log.
-
-Tech Stack
-
-The prototype can be implemented using:
-
-Frontend
-
-HTML
-
-CSS
-
-JavaScript
-
-Backend
-
-Node.js / Python / Firebase
-
-Database
-
-Firebase / MongoDB
-
-Security (Optional for future development)
-
-Blockchain for immutable consent records
-
-AI for detecting misuse of shared content
-
-Future Improvements
-
-AI detection of unauthorized media sharing
-
-Blockchain based immutable consent records
-
-Integration with social media platforms
-
-Mobile application version
-
-Advanced identity verification
-
-Impact
-
-Consent Guard aims to create a safer digital environment by ensuring that consent is clear, recorded, and respected.
-
-By giving users a tool to verify consent, the platform helps prevent misuse of personal content and promotes digital responsibility and accountability.
-
-Team
-1.Shivansh Kumar
-2.Aparna Bhadoriya
+```text
+[ User A: Sends Request ] ───► [ User B: Reviews Stream ] ───► [ Real-Time Decision ]
+                                                                       │
+    ┌──────────────────────────────────────────────────────────────────┴──────────────────┐
+    ▼                                                                                     ▼
+[ APPROVED ] ──► Generates Time-Stamped Log ──► Encrypted Storage                    [ DENIED ] ──► Request Aborted
 Developed for the Code4Her 2026.
