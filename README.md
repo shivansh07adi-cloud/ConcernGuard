@@ -32,3 +32,6 @@ Consent Guard mitigates digital disputes by introducing a **Two-Factor Digital V
     ▼                                                                                     ▼
 [ APPROVED ] ──► Generates Time-Stamped Log ──► Encrypted Storage                    [ DENIED ] ──► Request Aborted
 Developed for the Code4Her 2026.
+Team member details -
+1. Shivansh Kumar [Btech CSE CORE 1st year]
+2. Aparna Bhadoriya [Btech CSE CORE 1st year]
